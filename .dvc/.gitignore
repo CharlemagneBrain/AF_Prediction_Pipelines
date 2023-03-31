@@ -1,3 +1,16 @@
 /config.local
 /tmp
 /cache
+# ignore env directory
+ai_af
+
+#ignore data files
+#xml_data
+
+
+
+# .dot dir
+__pycache__
+
+.ipynb_checkpoints
+

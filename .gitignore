@@ -10,6 +10,6 @@ grafana_8.5.5_amd64.deb
 
 # .dot dir
 __pycache__
-.dvc
+
 .ipynb_checkpoints
 
