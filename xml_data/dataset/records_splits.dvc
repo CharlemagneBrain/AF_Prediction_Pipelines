@@ -1,0 +1,5 @@
+outs:
+- md5: cb4666616e8a240f8cd4a5a1f5fffce2.dir
+  size: 2362488
+  nfiles: 2
+  path: records_splits
