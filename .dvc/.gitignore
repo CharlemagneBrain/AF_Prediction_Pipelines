@@ -1,7 +1,3 @@
 /config.local
 /tmp
 /cache
-.ipynb_checkpoints
-xml_data/.ipynb_checkpoints
-xml_data/dataset/.ipynb_checkpoints
-

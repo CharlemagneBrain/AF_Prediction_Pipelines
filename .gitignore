@@ -2,7 +2,7 @@
 ai_af
 
 #ignore data files
-xml_data
+#xml_data
 
 #ignore grafana
 grafana_8.5.5_amd64.deb
