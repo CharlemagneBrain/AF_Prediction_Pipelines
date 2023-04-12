@@ -1,12 +1,9 @@
 '''
-This converter is used to convert hdf5 file to TFRecords.
-Dataset used:
-This is designed for the point cloud hdf5 data of pointnet,
-which can be downloaded from https://github.com/charlesq34/pointnet/sem_seg
+
 The sample data shape is 
     h5py {
-        'data': (1000, 4096, 9), # (number_of_data, points, channels)
-        'label': (1000, 4096)    # (number_of_data, label_of_points)
+        'tracings': (N, 4096, 12), # (number_of_data, points, channels)
+        
     }
 If you want modify this for your own hdf5 data, 
 the only thing you need to modify is "get_feature(point_cloud, label)" function
