@@ -4,12 +4,62 @@ ai_af
 #ignore data files
 #xml_data
 
+
+BestModelCallback.py
+ecgGAN.ipynb
+ECGGenerator.ipynb
+GptPreprocess.py
+LLMM.ipynb
+llvm.sh
+pulse2pulse.py
+readme.md
+requirements_docs.txt
+SamplingLayer.py
+scrawler.py
+setup.cfg
+setup.py
+Sketch_RNN.ipynb
+sketch-rnn-readme.txt
+train.py
+util.py
+vae.py
+VAELossLayer.py
+g_stat.pt
+
+
 #ignore grafana
 grafana_8.5.5_amd64.deb
 
 
 # .dot dir
 __pycache__
+.pytest_cache
 
 .ipynb_checkpoints
+gpt
+model
+.eggs/
+.vscode/
+docs
+dist
+build
+tests
+dvclive
+notebooks
+wandb
+HuggingFace
+torch_two_sample
+torch_two_sample.egg-info
+storage
+.benchmarks
+VAE
+/callbacks
+xml_data/avril.zip
+xml_data/all.h5
+xml_data/ECG.H5
+index.html
+__init__.py
+xml_data/ecg_tracings.hdf5
+xml_data/ecg.json
+xml_data/ecg.json
 

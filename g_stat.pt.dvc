@@ -1,0 +1,4 @@
+outs:
+- md5: 4cc412de3bc6f64aed67c4b65f4fab37
+  size: 42371528
+  path: g_stat.pt

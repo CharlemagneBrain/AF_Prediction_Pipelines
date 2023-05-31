@@ -2,3 +2,5 @@
 /splits
 /FinalTracings.h5
 /FinalTracings.tfrecord
+/Fakes_ECG.h5
+/ECG.h5
