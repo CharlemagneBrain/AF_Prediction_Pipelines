@@ -4,19 +4,12 @@ import h5py
 import numpy as np
 from scipy.signal import resample
 
+class Preprocess:
 
-# The ECGDataset class is designed to extract lead values from XML files and store them in a tensor.
-class ECGDataset:
-    # __init__ function takes two parameters:
-    # input_dir: the directory containing the XML files
-    # output_file: the name of the file where the tensor will be stored
-   
     def __init__(self, input_dir, output_file):
         self.input_dir = input_dir
         self.output_file = output_file
-    
-    # extract_lead_values function takes an ecg dictionary as input and returns a dictionary containing 
-    # lead names as keys and their corresponding values as lists.
+
     @staticmethod
     def extract_lead_values(ecg):
         names = [
@@ -37,7 +30,7 @@ class ECGDataset:
     def normalize_and_resample_ecg_signal(ecg_signal):
       ecg_signal = np.array(ecg_signal)
       
-      # Rééchantillonner le signal à 4096 Hz
+      # Rééchantillonner le signal à 400 Hz
       resampled_signal = resample(ecg_signal, 4096)
 
       # Normaliser le signal rééchantillonné
